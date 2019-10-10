@@ -82,7 +82,7 @@ img {
     #0051ba,
     #071d99
   ); */
-  background: url(/RainbowBlur.jpg);
+  background-image: url("RainbowBlur.jpg");
   background-size: cover;
   background-position: center;
   padding: 3rem;
