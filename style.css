@@ -41,7 +41,7 @@ img {
   grid-gap: 20px;
   padding: 0;
   list-style: none;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .main-nav a {
@@ -72,6 +72,7 @@ img {
 
 /* Showcase --we are assigning showcase here*/
 .showcase {
+  color: black;
   grid-area: showcase;
   min-height: 400px;
   /* background-image: linear-gradient(
@@ -82,7 +83,7 @@ img {
     #0051ba,
     #071d99
   ); */
-  background-image: url("RainbowBlur.jpg");
+  background-image: url("RainbowBlurFaded.png");
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -96,36 +97,12 @@ img {
 .showcase h1 {
   font-size: 3rem;
   margin-bottom: 0;
-  color: var(--light);
 }
 
 .showcase p {
   font-size: 1.3rem;
-  margin-top: 0;
-  color: var(--light);
+  margin-top: 5;
 }
-
-/* Top Box */
-/* .top-box {
-  background: var(--primary);
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  box-shadow: var(--shadow);
-  padding: 1.5rem;
-}
-
-.top-box .price {
-  font-size: 2.5rem;
-}
-
-.top-box-a {
-  grid-area: top-box-a;
-}
-
-.top-box-b {
-  grid-area: top-box-b;
-} */
 
 /* Boxes */
 .boxes {
@@ -148,7 +125,7 @@ img {
   box-shadow: var(--shadow);
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
   padding: 3rem;
 }
 
